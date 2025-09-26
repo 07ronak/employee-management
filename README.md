@@ -20,6 +20,35 @@ Built with **Next.js (App Router, TypeScript, Tailwind CSS)** on the frontend an
 
 ---
 
+## Features
+
+### ✅ Core Features Completed
+
+**Backend:**
+
+- ✔ Create a full set of CRUD API endpoints for employees (`/api/employees`). An employee has name, email, and position.
+- ✔ Use a simple database like SQLite to persist the data.
+
+**Frontend:**
+
+- ✔ Display all employees in a table or list.
+- ✔ Provide a form to add a new employee.
+- ✔ Include buttons to "Edit" and "Delete" each employee in the list.
+- ✔ Editing can be done via a modal or a separate page.
+
+### ✅ Bonus Features Completed
+
+- ✔ Add a search/filter bar on the frontend to find employees by name.
+- ✔ Implement frontend form validation.
+
+### ✨ Self-added Features
+
+- ✔ Backend form validation for enhanced data integrity.
+- ✔ Modern and responsive frontend for an optimal user experience.
+- ✔ Search functionality extended to name, email, and position.
+- ✔ Default table sorting from newest to oldest entries.
+- ✔ Robust and advanced error handling throughout the application.
+
 ## 🗂 Project Structure
 
 ```bash
