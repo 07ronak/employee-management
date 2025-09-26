@@ -23,9 +23,10 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware configuration
 // Enable CORS for cross-origin requests from frontend
+const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
 app.use(
   cors({
-    origin: "http://localhost:3000", // Allow requests from Next.js frontend
+    origin: FRONTEND_URL, // Allow requests from Next.js frontend
     credentials: true,
   })
 );
