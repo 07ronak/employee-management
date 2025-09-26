@@ -58,7 +58,6 @@ employee-management/
 │   │   ├── controllers/       # Handles request logic
 │   │   ├── models/            # Database models
 │   │   ├── routes/            # API routes
-│   │   ├── middleware/        # Express middleware
 │   │   ├── database/          # Database connection/config
 │   │   └── tests/             # Test cases
 │   ├── package.json

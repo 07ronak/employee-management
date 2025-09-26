@@ -3,7 +3,8 @@ const sqlite3 = require("sqlite3").verbose();
 const path = require("path");
 
 // Create database file path - stores database in project root
-const dbPath = process.env.DB_PATH || path.join(__dirname, "employees.db");
+const dbPath =
+  process.env.DB_PATH || path.join(__dirname, "../../employees.db");
 
 // Create a new database connection
 // This creates the file if it doesn't exist
