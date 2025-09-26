@@ -124,15 +124,7 @@ employee-management/
    npm install
    ```
 
-2. **Configure API URL:**
-
-   - Create a `.env.local` file in the frontend directory:
-
-     ```env
-     NEXT_PUBLIC_API_URL=http://localhost:5000/api
-     ```
-
-3. **Start the frontend development server:**
+2. **Start the frontend development server:**
 
    ```bash
    npm run dev
